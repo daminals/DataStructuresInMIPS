@@ -1,0 +1,4 @@
+#!/bin/bash
+
+javac -cp munit.jar tests/CustomTest.java                
+java -jar munit.jar tests/CustomTest.class hw4.asm
